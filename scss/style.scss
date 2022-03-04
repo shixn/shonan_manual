@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/***** common style *****/
+$devise_pc_min_width: 1280px;
+$devise_tb_max_width: 1279px;
+$devise_tb_min_width: 768px;
+$devise_sp_max_width: 767px;
+
+@media (max-width: $devise_tb_max_width) {
+  .pc-visibility { display: none; } 
+}
+@media (min-width: $devise_pc_min_width) {
+  .tb-visibility { display: none; }
+}
+@media (max-width: $devise_sp_max_width) {
+  .tb-visibility { display: none; } 
+}
+@media (max-width: $devise_sp_max_width) {
+  .pc-tb-visibility { display: none; }
+}
+@media (min-width: $devise_pc_min_width) {
+  .tb-sp-visibility { display: none; } 
+}
+@media (min-width: $devise_tb_min_width) {
+  .sp-visibility { display: none; }
+}
