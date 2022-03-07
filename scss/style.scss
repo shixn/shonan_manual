@@ -24,3 +24,39 @@ $devise_sp_max_width: 767px;
 @media (min-width: $devise_tb_min_width) {
   .sp-visibility { display: none; }
 }
+
+// color settings
+$blue: #6DAADE;
+
+.main-container {
+  margin: 0 auto;
+  width: 1000px;
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  .area-wrapper {
+    display: flex;
+    .figure-area {
+      width: 500px;
+      .figure-box {
+        img {
+          vertical-align: top;
+          width: 100%;
+        }
+      }
+    }
+    .text-area {
+      width: 500px;
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      a {
+        color: $blue;
+        text-decoration: underline;
+      }
+    }
+  }
+}

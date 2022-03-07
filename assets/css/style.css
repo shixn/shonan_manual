@@ -1,0 +1,43 @@
+/***** common style *****/
+@media (max-width: 1279px) {
+  .pc-visibility {
+    display: none; } }
+@media (min-width: 1280px) {
+  .tb-visibility {
+    display: none; } }
+@media (max-width: 767px) {
+  .tb-visibility {
+    display: none; } }
+@media (max-width: 767px) {
+  .pc-tb-visibility {
+    display: none; } }
+@media (min-width: 1280px) {
+  .tb-sp-visibility {
+    display: none; } }
+@media (min-width: 768px) {
+  .sp-visibility {
+    display: none; } }
+.main-container {
+  margin: 0 auto;
+  width: 1000px; }
+  .main-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5; }
+  .main-container .area-wrapper {
+    display: flex; }
+    .main-container .area-wrapper .figure-area {
+      width: 500px; }
+      .main-container .area-wrapper .figure-area .figure-box img {
+        vertical-align: top;
+        width: 100%; }
+    .main-container .area-wrapper .text-area {
+      width: 500px; }
+      .main-container .area-wrapper .text-area p {
+        font-size: 16px;
+        line-height: 1.5; }
+      .main-container .area-wrapper .text-area a {
+        color: #6DAADE;
+        text-decoration: underline; }
+
+/*# sourceMappingURL=style.css.map */
