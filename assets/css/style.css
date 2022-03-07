@@ -23,18 +23,43 @@
   .main-container h2 {
     font-size: 24px;
     font-weight: bold;
-    line-height: 1.5; }
+    line-height: 1.5;
+    padding: 50px 0 0;
+    position: relative;
+    text-align: center; }
+    .main-container h2::after {
+      border: 15px solid transparent;
+      border-top: 15px solid #6DAADE;
+      content: "";
+      display: block;
+      height: 0;
+      margin: 5px auto 10px;
+      width: 0; }
+  .main-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 15px 0 5px; }
+  .main-container h4 {
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 5px 0 0; }
   .main-container .area-wrapper {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
     .main-container .area-wrapper .figure-area {
-      width: 500px; }
+      align-self: flex-start;
+      box-shadow: 0 0 5px rgba(204, 204, 204, 0.9);
+      width: 480px; }
       .main-container .area-wrapper .figure-area .figure-box img {
         vertical-align: top;
         width: 100%; }
     .main-container .area-wrapper .text-area {
+      align-self: flex-start;
       width: 500px; }
       .main-container .area-wrapper .text-area p {
         font-size: 16px;
+        letter-spacing: 0.02em;
         line-height: 1.5; }
       .main-container .area-wrapper .text-area a {
         color: #6DAADE;

@@ -16,7 +16,7 @@
   <div class="area-wrapper">
     <div class="figure-area">
       <div class="figure-box">
-        <img src="/assets/image/036.png" alt="">
+        <img src="/assets/image/036.webp" alt="">
       </div>
     </div>
     <div class="text-area">
@@ -29,7 +29,7 @@
   <div class="area-wrapper">
     <div class="figure-area">
       <div class="figure-box">
-        <img src="/assets/image/037.png" alt="">
+        <img src="/assets/image/037.webp" alt="">
       </div>
     </div>
     <div class="text-area">
@@ -48,47 +48,54 @@
   <div class="area-wrapper">
     <div class="figure-area">
       <div class="figure-box">
-        <img src="/assets/image/038.png" alt="">
+        <img src="/assets/image/038.webp" alt="">
       </div>
     </div>
     <div class="text-area">
-      <p>受注処理をクリックします。</p>
-    </div>
-  </div>
+      <h4>管理NO.</h4>
+      <p>自動で連番の数値が適用されます。</p>
 
-  <h2>納品書・請求書発行ページ</h2>
-  <div class="area-wrapper">
-    <div class="figure-area">
-      <div class="figure-box">
-        <img src="/assets/image/035.png" alt="">
-      </div>
-    </div>
-    <div class="text-area">
-      <p>受注処理をクリックします。</p>
-    </div>
-  </div>
+      <h4>納品先</h4>
+      <p>宛先の一部を入力しレコメンドボタンをクリックします。</p>
+      <p>クリックすると「納品先選択モーダル」が表示されます。</p>
 
-  <h2>ロット割り当てページ</h2>
-  <div class="area-wrapper">
-    <div class="figure-area">
-      <div class="figure-box">
-        <img src="/assets/image/039.png" alt="">
-      </div>
-    </div>
-    <div class="text-area">
-      <p>受注処理をクリックします。</p>
-    </div>
-  </div>
+      <h4>請求先</h4>
+      <p>納品先が入力された状態で、レコメンドをクリックします。</p>
+      <p>クリックすると、納品先に紐づいた「請求先選択モーダル」が表示されます。</p>
 
-  <h2>納品書・請求書表示</h2>
-  <div class="area-wrapper">
-    <div class="figure-area">
-      <div class="figure-box">
-        <img src="/assets/image/041.png" alt="">
-      </div>
-    </div>
-    <div class="text-area">
-      <p>受注処理をクリックします。</p>
+      <h4>先方注文番号</h4>
+      <p>先方の発注書に記載の発注番号を入力します</p>
+
+      <h4>出荷日</h4>
+      <p>商品の出荷日を選択します</p>
+
+      <h4>到着日</h4>
+      <p>商品の到着日を選択します</p>
+
+      <h4>備考</h4>
+      <p>備考項目を入力します</p>
+
+      <h4>該当郵便番号・該当住所</h4>
+      <p>納品先に入力をすると自動で入力されます</p>
+
+      <h4>簡易計算</h4>
+      <p>該当郵便番号から自動で日本郵便・名鉄それぞれの日数と費用を自動算出</p>
+      <p>(※ 現在動作検証を優先させているため、仮の数値を入れています。)</p>
+
+      <h4>発送方法</h4>
+      <p>商品の発送方法を日本郵便・名鉄から選択します</p>
+
+      <h4>明細入力</h4>
+      <p>商品名をクリックし、商品を選択します</p>
+      <p>数量の上下のボタンをクリックし、数量を選択します</p>
+      <p>掛率をクリックして商品の単価を選択します</p>
+      <p>全ての情報を入力すると、小計に表示が出力されます</p>
+
+      <h4>明細を追加する場合</h4>
+      <p>「+ボタン」をクリックすると、明細入力を増やすことができます</p>
+
+      <h4>明細を減らす場合</h4>
+      <p>明細横の「ゴミ箱ボタン」をクリックすると、明細入力を減らすことができます</p>
     </div>
   </div>
 
@@ -96,11 +103,79 @@
   <div class="area-wrapper">
     <div class="figure-area">
       <div class="figure-box">
-        <img src="/assets/image/043.png" alt="">
+        <img src="/assets/image/043.webp" alt="">
       </div>
     </div>
     <div class="text-area">
-      <p>受注処理をクリックします。</p>
+      <p>選択候補の中から、該当の納品先を選択し、クリックします</p>
+      <p>クリックした納品先の情報が、フォームの納品先に反映されます</p>
+    </div>
+  </div>
+
+  <h2>請求先選択モーダル</h2>
+  <div class="area-wrapper">
+    <div class="figure-area">
+      <div class="figure-box">
+        <img src="/assets/image/043.webp" alt="">
+      </div>
+    </div>
+    <div class="text-area">
+      <p>選択候補の中から、該当請求先を選択し、クリックします</p>
+      <p>クリックし請求先の情報が、フォームの請求先に反映されます</p>
+    </div>
+  </div>
+
+  <h2>ロット割り当てページ</h2>
+  <div class="area-wrapper">
+    <div class="figure-area">
+      <div class="figure-box">
+        <img src="/assets/image/039.webp" alt="">
+      </div>
+    </div>
+    <div class="text-area">
+      <p>受注の明細に応じたロットを割り当てます。</p>
+      <p>初期値では、優先度の高いロットから割り当てられます</p>
+      <p>割り当てられるロットがない場合は、「在庫なし」と表示されます</p>
+      <p>割り当てられているロットと異なるロットを当てはめる場合は、右側の「別ロット割当」をクリックします。</p>
+    </div>
+  </div>
+
+  <h2>別ロット割当モーダル</h2>
+  <div class="area-wrapper">
+    <div class="figure-area">
+      <div class="figure-box">
+        <img src="/assets/image/044.webp" alt="">
+      </div>
+    </div>
+    <div class="text-area">
+      <p>割り当てをしたいロットをクリックします</p>
+      <p>クリックしたロットが割り当てられます</p>
+    </div>
+  </div>
+
+  <h2>納品書・請求書発行ページ</h2>
+  <div class="area-wrapper">
+    <div class="figure-area">
+      <div class="figure-box">
+        <img src="/assets/image/035.webp" alt="">
+      </div>
+    </div>
+    <div class="text-area">
+      <p>納品書に加えて、請求書も発行したい受注については、右側請求書発行のトグルをオンにします</p>
+      <p>上部の「納品書・請求書発行ボタン」をクリックします</p>
+      <p>クリックすると「<a href="">納品書・請求書表示ページ</a>」に遷移します</p>
+    </div>
+  </div>
+
+  <h2>納品書・請求書表示</h2>
+  <div class="area-wrapper">
+    <div class="figure-area">
+      <div class="figure-box">
+        <img src="/assets/image/041.webp" alt="">
+      </div>
+    </div>
+    <div class="text-area">
+      <p>該当の納品書・請求書の一覧が表示されます。</p>
     </div>
   </div>
 
