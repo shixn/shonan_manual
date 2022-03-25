@@ -1,4 +1,6 @@
-/***** common style *****/
+/*
+ * common style
+ */
 @media (max-width: 1279px) {
   .pc-visibility {
     display: none; } }
@@ -17,6 +19,9 @@
 @media (min-width: 768px) {
   .sp-visibility {
     display: none; } }
+/*
+ * color settings
+ */
 .main-container {
   margin: 0 auto;
   width: 1000px; }
@@ -24,7 +29,7 @@
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
-    padding: 50px 0 0;
+    padding: 150px 0 0;
     position: relative;
     text-align: center; }
     .main-container h2::after {
@@ -43,7 +48,7 @@
   .main-container h4 {
     font-weight: bold;
     line-height: 1.5;
-    padding: 5px 0 0; }
+    padding: 7px 0 0; }
   .main-container .area-wrapper {
     display: flex;
     justify-content: space-between; }
@@ -61,6 +66,9 @@
         font-size: 16px;
         letter-spacing: 0.02em;
         line-height: 1.5; }
+        .main-container .area-wrapper .text-area p.caution {
+          color: red;
+          font-weight: bold; }
       .main-container .area-wrapper .text-area a {
         color: #6DAADE;
         text-decoration: underline; }

@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-/***** common style *****/
+/*
+ * common style
+ */
 $devise_pc_min_width: 1280px;
 $devise_tb_max_width: 1279px;
 $devise_tb_min_width: 768px;
@@ -25,7 +27,9 @@ $devise_sp_max_width: 767px;
   .sp-visibility { display: none; }
 }
 
-// color settings
+/*
+ * color settings
+ */
 $blue: #6DAADE;
 
 .main-container {
@@ -35,7 +39,7 @@ $blue: #6DAADE;
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
-    padding: 50px 0 0;
+    padding: 150px 0 0;
     position: relative;
     text-align: center;
     &::after {
@@ -57,7 +61,7 @@ $blue: #6DAADE;
   h4 {
     font-weight: bold;
     line-height: 1.5;
-    padding: 5px 0 0;
+    padding: 7px 0 0;
   }
   .area-wrapper {
     display: flex;
@@ -80,6 +84,10 @@ $blue: #6DAADE;
         font-size: 16px;
         letter-spacing: 0.02em;
         line-height: 1.5;
+        &.caution {
+          color: red;
+          font-weight: bold;
+        }
       }
       a {
         color: $blue;
